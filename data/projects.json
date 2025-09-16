@@ -20,4 +20,12 @@
     "image": "assets/img/graphics/mercy_nice.png",
     "url": "my-graphics.html"
   }
+  ,
+  {
+    "title": "Field Technician",
+    "excerpt": "On-site device diagnosis, repairs, and installations with high customer satisfaction.",
+    "stack": ["Repairs", "Installations", "Maintenance"],
+    "image": "assets/img/boc_gadget_plug.jpg",
+    "url": "technician.html"
+  }
 ]

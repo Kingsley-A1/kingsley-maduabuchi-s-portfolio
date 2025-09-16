@@ -81,17 +81,48 @@
 
     normalizePaths();
     if (!btn || !list) return;
-    btn.addEventListener("click", () => {
-      const open = list.classList.toggle("open");
+
+    const setOpen = (open) => {
+      if (open) list.classList.add("open");
+      else list.classList.remove("open");
       btn.setAttribute("aria-expanded", String(open));
       const useEl = btn.querySelector("use");
       if (useEl) {
         const target = `#${open ? "icon-close" : "icon-menu"}`;
         useEl.setAttribute("href", target);
-        try {
-          useEl.setAttribute("xlink:href", target);
-        } catch (e) {}
+        try { useEl.setAttribute("xlink:href", target); } catch (e) {}
       }
+    };
+
+    btn.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      const open = !list.classList.contains("open");
+      setOpen(open);
+    });
+
+    // Close on any nav link click
+    list.addEventListener("click", (e) => {
+      const t = e.target;
+      if (t && (t.tagName === "A" || t.closest("a"))) {
+        setOpen(false);
+      }
+    });
+
+    // Close when clicking outside the nav
+    document.addEventListener("click", (e) => {
+      if (!list.classList.contains("open")) return;
+      const withinNav = list.contains(e.target) || btn.contains(e.target);
+      if (!withinNav) setOpen(false);
+    });
+
+    // Close with Escape
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && list.classList.contains("open")) setOpen(false);
+    });
+
+    // Close when resizing to desktop
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 800 && list.classList.contains("open")) setOpen(false);
     });
   }
 

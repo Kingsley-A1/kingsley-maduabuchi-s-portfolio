@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Field Technician · Kingsley Maduabuchi</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div data-include="header"></div>
+
+    <main id="main" role="main" class="project-detail container">
+      <h1>Field Technician</h1>
+      <p class="muted">
+        Hands-on device diagnosis, electronics repairs, accessory installations, and
+        preventive maintenance. I focus on fast turnarounds, clear communication, and
+        durable fixes that keep customers happy.
+      </p>
+
+      <img src="assets/img/mobile_technician.jpg" alt="Technician at work" loading="lazy" decoding="async" />
+
+      <h2>Selected Services</h2>
+      <ul>
+        <li>Smartphone and laptop repairs</li>
+        <li>Screen and battery replacements</li>
+        <li>Software installation and updates</li>
+        <li>Home/office device setup and tuning</li>
+        <li>Diagnostics and preventive maintenance</li>
+      </ul>
+
+      <h2>Customer Reviews</h2>
+      <div id="reviews" class="grid"></div>
+    </main>
+
+    <div data-include="footer"></div>
+
+    <script>
+      const reviews = [
+        { name: "Adaobi E.", rating: 5, text: "Fast repair and very polite. My phone feels brand new!" },
+        { name: "Chinedu O.", rating: 5, text: "Same-day screen replacement. Professional and affordable." },
+        { name: "Uduak A.", rating: 4.5, text: "Clear explanation and quick fix. Highly recommended." },
+        { name: "Samuel I.", rating: 5, text: "Installed my home router neatly and optimized the Wi‑Fi." },
+        { name: "Mfon B.", rating: 4.7, text: "Battery swap done perfectly. Great service attitude." }
+      ];
+
+      function starSVG(fill = 1) {
+        // fill: 1 full, 0.5 half, 0 empty
+        if (fill === 1) return '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l3.1 6.3 7 1-5 4.8 1.2 6.9L12 18.8 5.7 22l1.2-6.9-5-4.8 7-1z" fill="currentColor"/></svg>';
+        if (fill === 0.5) return '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><defs><linearGradient id="g" x1="0" x2="1"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="transparent"/></linearGradient></defs><path d="M12 3l3.1 6.3 7 1-5 4.8 1.2 6.9L12 18.8 5.7 22l1.2-6.9-5-4.8 7-1z" fill="url(#g)" stroke="currentColor"/></svg>';
+        return '<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l3.1 6.3 7 1-5 4.8 1.2 6.9L12 18.8 5.7 22l1.2-6.9-5-4.8 7-1z" fill="none" stroke="currentColor"/></svg>';
+      }
+
+      function renderStars(rating) {
+        const full = Math.floor(rating);
+        const half = rating - full >= 0.5 ? 1 : 0;
+        const empty = 5 - full - half;
+        return (
+          '<span style="display:inline-flex;gap:2px;color:#ffb649">' +
+          '★'.repeat(full) + (half ? '☆' : '') +
+          '</span>'
+        );
+      }
+
+      document.addEventListener('DOMContentLoaded', async () => {
+        // load shared header/footer
+        await (async function loadIncludes(){
+          const includeNodes = document.querySelectorAll('[data-include]');
+          await Promise.all(Array.from(includeNodes).map(async (node) => {
+            let src = node.getAttribute('data-include');
+            if (src === 'header') src = '_includes/header.html';
+            if (src === 'footer') src = '_includes/footer.html';
+            const res = await fetch(src);
+            node.outerHTML = await res.text();
+          }));
+        })();
+
+        const wrap = document.getElementById('reviews');
+        reviews.forEach(r => {
+          const card = document.createElement('article');
+          card.className = 'card';
+          card.innerHTML = `
+            <h3 style="margin:.2rem 0">${r.name}</h3>
+            <div>${renderStars(r.rating)} <span class="muted">${r.rating.toFixed(1)} / 5.0</span></div>
+            <p style="margin:.6rem 0 0">${r.text}</p>
+          `;
+          wrap.appendChild(card);
+        });
+      });
+    </script>
+  </body>
+</html>
