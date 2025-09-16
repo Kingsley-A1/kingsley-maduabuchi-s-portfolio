@@ -1,0 +1,23 @@
+[
+  {
+    "title": "GOODEALS",
+    "excerpt": "Vendor marketplace for Calabar—checkout, vendor onboarding and commission system.",
+    "stack": ["Next.js", "NestJS", "Postgres", "Stripe"],
+    "image": "assets/img/goodeals_logo.jpg",
+    "url": "projects/goodeals.html"
+  },
+  {
+    "title": "Best Of Chris Communications",
+    "excerpt": "Sales representative at an  enterprise and a fast-growing tech products brand for showcase, sales, updates, repair and customer engagement enterprise.",
+    "stack": ["PROFESSIONAL MARKETER", "SALES REPRESENTATIVE"],
+    "image": "assets/img/boc_logo_1.png",
+    "url": "https://maps.app.goo.gl/n64m2d9ENg9r9iw48"
+  },
+  {
+    "title": "Graphics Designs",
+    "excerpt": "A showcase of selected brand assets, posters, banners, and social graphics crafted for campaigns and clients.",
+    "stack": ["Branding", "Posters", "Social Media"],
+    "image": "assets/img/graphics/mercy_nice.png",
+    "url": "my-graphics.html"
+  }
+]

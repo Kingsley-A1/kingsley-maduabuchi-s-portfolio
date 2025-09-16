@@ -1,0 +1,29 @@
+# .github/workflows/deployment.yml
+name: Deploy Portfolio to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # or 'master' if that’s your default branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout repository
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Optional: cache static assets (noop here, kept for future build steps)
+      - name: Setup Node.js (optional)
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      # Step 5: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./ # Keep as repo root if publishing this folder alone; adjust to ./dist if you add a build

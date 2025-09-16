@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none;"><svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+
+  <!--  <!--
+
+    Icon sprite for portfolio    Icon sprite for portfolio
+
+    Usage: <svg class="icon"><use href="assets/icons/icon-sprite.svg#icon-id" xlink:href="assets/icons/icon-sprite.svg#icon-id"></use></svg>    Usage: <svg class="icon"><use xlink:href="/assets/icons/icons.svg#icon-id"></use></svg>
+
+    All symbols use a 24x24 viewBox for predictable sizing.    All symbols use a 24x24 viewBox for predictable sizing.
+
+  -->  -->
+
+
+
+  <!-- Code / GitHub shorthand (chevrons & slash) -->  <!-- Code / GitHub shorthand (chevrons & slash) -->
+
+  <symbol id="icon-github" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-github" viewBox="0 0 24 24" aria-hidden="true">
+
+    <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">    <g fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+
+      <path d="M8 7 L5 12 L8 17" />      <path d="M8 7 L5 12 L8 17" />
+
+      <path d="M16 7 L19 12 L16 17" />      <path d="M16 7 L19 12 L16 17" />
+
+      <path d="M10 11 L14 11" />      <path d="M10 11 L14 11" />
+
+    </g>    </g>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- LinkedIn (rounded square with 'in' mark) -->  <!-- LinkedIn (rounded square with 'in' mark) -->
+
+  <symbol id="icon-linkedin" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-linkedin" viewBox="0 0 24 24" aria-hidden="true">
+
+    <rect x="2" y="3" width="20" height="18" rx="3" ry="3" fill="none" stroke="currentColor" stroke-width="1.4"/>    <rect x="2" y="3" width="20" height="18" rx="3" ry="3" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+    <rect x="6" y="9" width="2" height="7" rx="0.4" fill="currentColor"/>    <rect x="6" y="9" width="2" height="7" rx="0.4" fill="currentColor"/>
+
+    <circle cx="7" cy="7" r="0.9" fill="currentColor"/>    <circle cx="7" cy="7" r="0.9" fill="currentColor"/>
+
+    <path d="M11.5 9h2.2c1.6 0 2 1.2 2 2.3v3.7" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>    <path d="M11.5 9h2.2c1.6 0 2 1.2 2 2.3v3.7" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- Mail / Envelope -->  <!-- Mail / Envelope -->
+
+  <symbol id="icon-mail" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-mail" viewBox="0 0 24 24" aria-hidden="true">
+
+    <rect x="2.5" y="5.5" width="19" height="13" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.4"/>    <rect x="2.5" y="5.5" width="19" height="13" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+    <path d="M3.8 7.4 L12 13 L20.2 7.4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>    <path d="M3.8 7.4 L12 13 L20.2 7.4" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- Phone (filled) -->  <!-- Phone (filled) -->
+
+  <symbol id="icon-phone" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-phone" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M6.6 2.8l2.4 2.4c.4.4.5 1 .2 1.5l-1.4 2.1c.9 1.8 2.4 3.3 4.2 4.2l2.1-1.4c.5-.3 1.1-.2 1.5.2l2.4 2.4c.5.5.5 1.3 0 1.8l-1.3 1.3c-.8.8-2 1.1-3.1.8-5.1-1.4-9-5.3-10.4-10.4-.3-1.1 0-2.3.8-3.1l1.3-1.3c.5-.5 1.3-.5 1.8 0z" fill="currentColor"/>    <path d="M6.6 2.8l2.4 2.4c.4.4.5 1 .2 1.5l-1.4 2.1c.9 1.8 2.4 3.3 4.2 4.2l2.1-1.4c.5-.3 1.1-.2 1.5.2l2.4 2.4c.5.5.5 1.3 0 1.8l-1.3 1.3c-.8.8-2 1.1-3.1.8-5.1-1.4-9-5.3-10.4-10.4-.3-1.1 0-2.3.8-3.1l1.3-1.3c.5-.5 1.3-.5 1.8 0z" fill="currentColor"/>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- HTML5 (shield with 5) -->  <!-- HTML5 (shield with 5) -->
+
+  <symbol id="icon-html5" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-html5" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M4 3l1.5 16L12 21l6.5-2L20 3z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>    <path d="M4 3l1.5 16L12 21l6.5-2L20 3z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+
+    <path d="M8.5 9.5h7.5M8.5 13h7.5M12 17l1.8-.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>    <path d="M8.5 9.5h7.5M8.5 13h7.5M12 17l1.8-.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- CSS3 (shield with 3) -->  <!-- CSS3 (shield with 3) -->
+
+  <symbol id="icon-css3" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-css3" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M4 3l1.5 16L12 21l6.5-2L20 3z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>    <path d="M4 3l1.5 16L12 21l6.5-2L20 3z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+
+    <path d="M8.2 9.6h7.6M9.5 13.2h5.2M12 16.4l2.4-.7" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>    <path d="M8.2 9.6h7.6M9.5 13.2h5.2M12 16.4l2.4-.7" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- JavaScript (square with JS) -->  <!-- JavaScript (square with JS) -->
+
+  <symbol id="icon-js" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-js" viewBox="0 0 24 24" aria-hidden="true">
+
+    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="1.4"/>    <rect x="3" y="3" width="18" height="18" rx="2" ry="2" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+    <path d="M9 9.5c0 .8-.3 1.6-1.2 2.1M14 9.5c0 1.8-1.2 2.5-2.3 3.1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>    <path d="M9 9.5c0 .8-.3 1.6-1.2 2.1M14 9.5c0 1.8-1.2 2.5-2.3 3.1" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+
+    <text x="7.6" y="17.2" font-size="5.6" font-family="Arial, Helvetica, sans-serif" fill="currentColor">JS</text>    <text x="7.6" y="17.2" font-size="5.6" font-family="Arial, Helvetica, sans-serif" fill="currentColor">JS</text>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- Python (stylized: two stacked rounded shapes) -->  <!-- Python (stylized: two stacked rounded shapes) -->
+
+  <symbol id="icon-python" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-python" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M8 3.5h6a2.2 2.2 0 0 1 2.2 2.2v2.6a2.2 2.2 0 0 1-2.2 2.2H8v-6z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>    <path d="M8 3.5h6a2.2 2.2 0 0 1 2.2 2.2v2.6a2.2 2.2 0 0 1-2.2 2.2H8v-6z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+
+    <circle cx="9.2" cy="5.8" r="0.6" fill="currentColor"/>    <circle cx="9.2" cy="5.8" r="0.6" fill="currentColor"/>
+
+    <path d="M16 20.5H10a2.2 2.2 0 0 1-2.2-2.2v-2.6A2.2 2.2 0 0 1 10 13.5h6v7z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>    <path d="M16 20.5H10a2.2 2.2 0 0 1-2.2-2.2v-2.6A2.2 2.2 0 0 1 10 13.5h6v7z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+
+    <circle cx="14.8" cy="18.2" r="0.6" fill="currentColor"/>    <circle cx="14.8" cy="18.2" r="0.6" fill="currentColor"/>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- React (atom + center circle) -->  <!-- React (atom + center circle) -->
+
+  <symbol id="icon-react" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-react" viewBox="0 0 24 24" aria-hidden="true">
+
+    <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">    <g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+
+      <ellipse cx="12" cy="12" rx="6.2" ry="2.6" transform="rotate(0 12 12)"/>      <ellipse cx="12" cy="12" rx="6.2" ry="2.6" transform="rotate(0 12 12)"/>
+
+      <ellipse cx="12" cy="12" rx="6.2" ry="2.6" transform="rotate(60 12 12)"/>      <ellipse cx="12" cy="12" rx="6.2" ry="2.6" transform="rotate(60 12 12)"/>
+
+      <ellipse cx="12" cy="12" rx="6.2" ry="2.6" transform="rotate(120 12 12)"/>      <ellipse cx="12" cy="12" rx="6.2" ry="2.6" transform="rotate(120 12 12)"/>
+
+      <circle cx="12" cy="12" r="1.2" fill="currentColor"/>      <circle cx="12" cy="12" r="1.2" fill="currentColor"/>
+
+    </g>    </g>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- Node.js (hexagon with 'Node' placeholder) -->  <!-- Node.js (hexagon with 'Node' placeholder) -->
+
+  <symbol id="icon-node" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-node" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M12 2.2l6.6 3.8v7.6L12 21.8l-6.6-8.2V6z" fill="none" stroke="currentColor" stroke-width="1.2"/>    <path d="M12 2.2l6.6 3.8v7.6L12 21.8l-6.6-8.2V6z" fill="none" stroke="currentColor" stroke-width="1.2"/>
+
+    <text x="12" y="13.4" font-size="3.2" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="currentColor">Node</text>    <text x="12" y="13.4" font-size="3.2" font-family="Arial, Helvetica, sans-serif" text-anchor="middle" fill="currentColor">Node</text>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- Database (cylinder) -->  <!-- Database (cylinder) -->
+
+  <symbol id="icon-database" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-database" viewBox="0 0 24 24" aria-hidden="true">
+
+    <ellipse cx="12" cy="5" rx="7" ry="3" fill="none" stroke="currentColor" stroke-width="1.4"/>    <ellipse cx="12" cy="5" rx="7" ry="3" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+    <path d="M5 5v7c0 1.7 3.1 3 7 3s7-1.3 7-3V5" fill="none" stroke="currentColor" stroke-width="1.4"/>    <path d="M5 5v7c0 1.7 3.1 3 7 3s7-1.3 7-3V5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+    <path d="M5 12v5c0 1.7 3.1 3 7 3s7-1.3 7-3v-5" fill="none" stroke="currentColor" stroke-width="1.4"/>    <path d="M5 12v5c0 1.7 3.1 3 7 3s7-1.3 7-3v-5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- External link (arrow out of box) -->  <!-- External link (arrow out of box) -->
+
+  <symbol id="icon-external" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-external" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M14 3h7v7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>    <path d="M14 3h7v7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M10 14L21 3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>    <path d="M10 14L21 3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="3.5" y="7.5" width="9" height="13" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.4"/>    <rect x="3.5" y="7.5" width="9" height="13" rx="1.2" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- Download (arrow into tray) -->  <!-- Download (arrow into tray) -->
+
+  <symbol id="icon-download" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-download" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M12 3v10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>    <path d="M12 3v10" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+
+    <path d="M8 11l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>    <path d="M8 11l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <rect x="5" y="17" width="14" height="2" rx="0.6" fill="none" stroke="currentColor" stroke-width="1.4"/>    <rect x="5" y="17" width="14" height="2" rx="0.6" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- Menu (three horizontal lines) -->  <!-- Menu (three horizontal lines) -->
+
+  <symbol id="icon-menu" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-menu" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>    <path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+
+  </symbol>  </symbol>
+
+  <!-- Theme: Moon -->  <!-- Theme: Moon -->
+
+  <symbol id="icon-moon" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-moon" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 7 7 0 0 0 21 12.8z" fill="none" stroke="currentColor" stroke-width="1.6"/>    <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 7 7 0 0 0 21 12.8z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+
+  </symbol>  </symbol>
+
+  <!-- Theme: Sun -->  <!-- Theme: Sun -->
+
+  <symbol id="icon-sun" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-sun" viewBox="0 0 24 24" aria-hidden="true">
+
+    <circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.6"/>    <circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+
+    <path d="M12 2v3M12 19v3M4.2 4.2l2.2 2.2M17.6 17.6l2.2 2.2M2 12h3M19 12h3M4.2 19.8l2.2-2.2M17.6 6.4l2.2-2.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>    <path d="M12 2v3M12 19v3M4.2 4.2l2.2 2.2M17.6 17.6l2.2 2.2M2 12h3M19 12h3M4.2 19.8l2.2-2.2M17.6 6.4l2.2-2.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- Close (X) -->  <!-- Close (X) -->
+
+  <symbol id="icon-close" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-close" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M6 6 L18 18 M6 18 L18 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>    <path d="M6 6 L18 18 M6 18 L18 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- Arrow right -->  <!-- Arrow right -->
+
+  <symbol id="icon-arrow-right" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-arrow-right" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>    <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- Placeholder / logo mark (use for brand) -->  <!-- Placeholder / logo mark (use for brand) -->
+
+  <symbol id="icon-brand" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-brand" viewBox="0 0 24 24" aria-hidden="true">
+
+    <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/>    <circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.6"/>
+
+    <path d="M8 12c1.2-2 4-2 4-2s2.8 0 4 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>    <path d="M8 12c1.2-2 4-2 4-2s2.8 0 4 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+
+  </symbol>  </symbol>
+
+
+
+  <!-- Social: X/Twitter -->  <!-- Social: X/Twitter -->
+
+  <symbol id="icon-x" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-x" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M4 4l16 16M20 4L4 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>    <path d="M4 4l16 16M20 4L4 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+
+  </symbol>  </symbol>
+
+  <!-- Social: Facebook -->  <!-- Social: Facebook -->
+
+  <symbol id="icon-facebook" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-facebook" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M14 8h2V5h-2c-2 0-3 1-3 3v2H9v3h2v6h3v-6h2.2l.8-3H14V8z" fill="currentColor"/>    <path d="M14 8h2V5h-2c-2 0-3 1-3 3v2H9v3h2v6h3v-6h2.2l.8-3H14V8z" fill="currentColor"/>
+
+  </symbol>  </symbol>
+
+  <!-- Social: Instagram (rounded square + lens) -->  <!-- Social: Instagram (rounded square + lens) -->
+
+  <symbol id="icon-instagram" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-instagram" viewBox="0 0 24 24" aria-hidden="true">
+
+    <rect x="3.5" y="3.5" width="17" height="17" rx="4" ry="4" fill="none" stroke="currentColor" stroke-width="1.4"/>    <rect x="3.5" y="3.5" width="17" height="17" rx="4" ry="4" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+    <circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.4"/>    <circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+    <circle cx="16.8" cy="7.2" r="1" fill="currentColor"/>    <circle cx="16.8" cy="7.2" r="1" fill="currentColor"/>
+
+  </symbol>  </symbol>
+
+  <!-- Social: WhatsApp -->  <!-- Social: WhatsApp -->
+
+  <symbol id="icon-whatsapp" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-whatsapp" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M20 12c0 4.4-3.6 8-8 8-1.4 0-2.7-.4-3.9-1l-3.1.9.9-3.1c-.7-1.2-1.1-2.6-1.1-4.1 0-4.4 3.6-8 8-8s8 3.6 8 8z" fill="none" stroke="currentColor" stroke-width="1.4"/>    <path d="M20 12c0 4.4-3.6 8-8 8-1.4 0-2.7-.4-3.9-1l-3.1.9.9-3.1c-.7-1.2-1.1-2.6-1.1-4.1 0-4.4 3.6-8 8-8s8 3.6 8 8z" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+    <path d="M9.2 8.8c-.2.4-.4.9-.4 1.3 0 2.4 2.2 4.4 4.8 4.4.4 0 .9-.1 1.3-.3" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>    <path d="M9.2 8.8c-.2.4-.4.9-.4 1.3 0 2.4 2.2 4.4 4.8 4.4.4 0 .9-.1 1.3-.3" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+
+  </symbol>  </symbol>
+
+  <!-- Social: YouTube -->  <!-- Social: YouTube -->
+
+  <symbol id="icon-youtube" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-youtube" viewBox="0 0 24 24" aria-hidden="true">
+
+    <rect x="3" y="7" width="18" height="10" rx="2.5" ry="2.5" fill="none" stroke="currentColor" stroke-width="1.4"/>    <rect x="3" y="7" width="18" height="10" rx="2.5" ry="2.5" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+    <path d="M11 10l4 2-4 2v-4z" fill="currentColor"/>    <path d="M11 10l4 2-4 2v-4z" fill="currentColor"/>
+
+  </symbol>  </symbol>
+
+  <!-- Utility: Phone (outline) -->  <!-- Utility: Phone (outline) -->
+
+  <symbol id="icon-call" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-call" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M6 4l3 2-2 3c1.6 3.2 4.2 5.8 7.4 7.4l3-2 2 3-2 3c-6.6-1.6-12-7-13.6-13.6L6 4z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>    <path d="M6 4l3 2-2 3c1.6 3.2 4.2 5.8 7.4 7.4l3-2 2 3-2 3c-6.6-1.6-12-7-13.6-13.6L6 4z" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+
+  </symbol>  </symbol>
+
+  <!-- Utility: Location -->  <!-- Utility: Location -->
+
+  <symbol id="icon-location" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-location" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M12 21s-6-6.3-6-10.5A6 6 0 1 1 18 10.5C18 14.7 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.4"/>    <path d="M12 21s-6-6.3-6-10.5A6 6 0 1 1 18 10.5C18 14.7 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="1.4"/>
+
+    <circle cx="12" cy="10.5" r="2" fill="currentColor"/>    <circle cx="12" cy="10.5" r="2" fill="currentColor"/>
+
+  </symbol>  </symbol>
+
+  <!-- Utility: Link -->  <!-- Utility: Link -->
+
+  <symbol id="icon-link" viewBox="0 0 24 24" aria-hidden="true">  <symbol id="icon-link" viewBox="0 0 24 24" aria-hidden="true">
+
+    <path d="M8 12a4 4 0 0 1 4-4h3M16 12a4 4 0 0 1-4 4H9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>    <path d="M8 12a4 4 0 0 1 4-4h3M16 12a4 4 0 0 1-4 4H9" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+
+  </symbol>  </symbol>
+
+</svg></svg>
+
