@@ -52,7 +52,11 @@
         const target = a.getAttribute("data-href");
         if (!target) return;
         const needsUp = inProjectsDir && !target.startsWith("projects/");
-        const href = needsUp ? `../${target}` : target;
+        let href = needsUp ? `../${target}` : target;
+        // Avoid accidental double 'projects/' when already in projects/
+        if (inProjectsDir && href.startsWith("projects/")) {
+          href = `../${href}`;
+        }
         a.setAttribute("href", href);
       });
 
@@ -90,7 +94,9 @@
       if (useEl) {
         const target = `#${open ? "icon-close" : "icon-menu"}`;
         useEl.setAttribute("href", target);
-        try { useEl.setAttribute("xlink:href", target); } catch (e) {}
+        try {
+          useEl.setAttribute("xlink:href", target);
+        } catch (e) {}
       }
     };
 
@@ -122,7 +128,8 @@
 
     // Close when resizing to desktop
     window.addEventListener("resize", () => {
-      if (window.innerWidth > 800 && list.classList.contains("open")) setOpen(false);
+      if (window.innerWidth > 800 && list.classList.contains("open"))
+        setOpen(false);
     });
   }
 
@@ -305,14 +312,18 @@
         e.preventDefault();
         const name = (form.querySelector('[name="name"]').value || "").trim();
         const email = (form.querySelector('[name="email"]').value || "").trim();
-        const message = (form.querySelector('[name="message"]').value || "").trim();
+        const message = (
+          form.querySelector('[name="message"]').value || ""
+        ).trim();
         if (!name || !email || !message) {
           alert("Please complete all fields before sending.");
           return;
         }
         const to = "blessedkingkingsley2002@gmail.com";
         const subject = encodeURIComponent(`Portfolio message from ${name}`);
-        const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
+        const body = encodeURIComponent(
+          `Name: ${name}\nEmail: ${email}\n\n${message}`
+        );
         const href = `mailto:${to}?subject=${subject}&body=${body}`;
         // Prefer opening in the same tab to trigger the mail client
         window.location.href = href;
@@ -321,11 +332,15 @@
 
     // Ensure CV download works; if PDF missing, offer a clean text fallback
     (function ensureCvDownload() {
-      const link = document.getElementById("downloadCv") || document.querySelector('a[href$="Kingsley_Maduabuchi_CV.pdf"]');
+      const link =
+        document.getElementById("downloadCv") ||
+        document.querySelector('a[href$="Kingsley_Maduabuchi_CV.pdf"]');
       if (!link) return;
       link.addEventListener("click", async (e) => {
         try {
-          const res = await fetch(link.getAttribute("href"), { method: "HEAD" });
+          const res = await fetch(link.getAttribute("href"), {
+            method: "HEAD",
+          });
           if (!res.ok) throw new Error("missing");
           // File exists; allow default download
           return;

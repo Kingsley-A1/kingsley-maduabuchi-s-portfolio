@@ -1,6 +1,6 @@
 [
   {
-    "title": "GOODEALS",
+    "title": "VENDER",
     "excerpt": "Vendor marketplace for Calabar—checkout, vendor onboarding and commission system.",
     "stack": ["Next.js", "NestJS", "Postgres", "Stripe"],
     "image": "assets/img/goodeals_logo.jpg",
@@ -19,13 +19,12 @@
     "stack": ["Branding", "Posters", "Social Media"],
     "image": "assets/img/graphics/mercy_nice.png",
     "url": "my-graphics.html"
-  }
-  ,
+  },
   {
-    "title": "Field Technician",
-    "excerpt": "On-site device diagnosis, repairs, and installations with high customer satisfaction.",
+    "title": "Mobile Technician",
+    "excerpt": "Professional on-site device diagnosis, repairs, and installations with high customer satisfaction.",
     "stack": ["Repairs", "Installations", "Maintenance"],
-    "image": "assets/img/boc_gadget_plug.jpg",
+    "image": "assets/img/mobile_technician.jpg",
     "url": "technician.html"
   }
 ]
